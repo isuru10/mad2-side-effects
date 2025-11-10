@@ -1,6 +1,4 @@
-# Step 1. Checkout to `starter` branch
-
-# Step 2. `LaunchedEffect` Demo
+# Step 1. `LaunchedEffect` Demo
 
 1.  Create the **`LaunchedEffectDemo`** Composable accepting a `userId: Int`.
 2.  Define a mutable state **`dataState`** initialized to "Fetching user data...".
@@ -11,7 +9,7 @@
 4.  Define the Column layout to display the current user ID and the `dataState` text, using conditional color based on the message content.
 5.  Uncomment the relevant section in `SideEffectsDemoApp` to test the functionality
 
-# Step 3. `rememberCoroutineScope` Demo
+# Step 2. `rememberCoroutineScope` Demo
 
 1.  Create the **`CoroutineScopeDemo`** Composable.
 2.  Get a coroutine scope using **`val scope = rememberCoroutineScope()`**.
@@ -24,7 +22,7 @@
 6.  Add a **`LinearProgressIndicator`** to the Column, visible only when `isLoading` is `true`.
 7.  Uncomment the relevant section in `SideEffectsDemoApp` to test the functionality
 
-# Step 4. `DisposableEffect` Demo
+# Step 3. `DisposableEffect` Demo
 
 1.  Create the **`ListenerComposable`** accepting a `key: Boolean`.
 2.  Define a mutable state **`statusText`**.
